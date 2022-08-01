@@ -29,6 +29,13 @@ a {
   color: #11999E;s
 }
 
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
 .top-container {
   background-color: #F9F5EB;
   position: relative;
@@ -51,7 +58,27 @@ a {
   padding: 10px;
 }
 
+/*
+.development-description {
+  clear: left;
+}
+
+.design-description {
+  clear: right;
+}
+*/
 .bottom-container {
 
 }
 
+.computer-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.design-img {
+  width: 25%;
+  float: right;
+  margin-right: 30px;
+}
