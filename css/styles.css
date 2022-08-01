@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+
+}
+
+h1 {
+  width: %10;
+  margin: 0 auto 0 auto;
+  /* or can be written as margin: 0 auto;
+  *  means that top and bottom will be 0px,
+  *  left and right will be centered.
+  */
+}
+
+.top-container {
+  background-color: #C9BBCF;
+  position: relative;
+  padding-top: 100px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.middle-container {
+  padding: 10px;
+}
+
+.bottom-container {
+
+}
